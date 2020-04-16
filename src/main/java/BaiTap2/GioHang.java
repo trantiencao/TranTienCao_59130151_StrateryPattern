@@ -28,7 +28,7 @@ public class GioHang {
     
     public int tienHang() {
         int tienHang=0;
-        for (HangHoa HH : dsHH) {
+        for (HangHoa HH: dsHH) {
             tienHang+=HH.gia;
         }
         return tienHang;
@@ -39,6 +39,6 @@ public class GioHang {
     }
     
     public void indsHH() {
-        dsHH.forEach(HH -> System.out.println(HH.thongTinHH()));
+        dsHH.forEach(HangHoa -> System.out.println(HangHoa.thongTinHH()));
     }
 }
