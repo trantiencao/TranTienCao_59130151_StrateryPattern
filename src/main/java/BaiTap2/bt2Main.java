@@ -16,6 +16,8 @@ public class bt2Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        // Tạo các hàng hóa
         HangHoa tuLanh = new HangHoa("Tủ lạnh", 5000000, "Nhét vừa con bò");
         HangHoa loNuong = new HangHoa("Lò nướng", 2000000, "3 Kg");
         HangHoa noiAS = new HangHoa("Nồi cơm áp suất", 1500000, "Nhét vừa con gà");

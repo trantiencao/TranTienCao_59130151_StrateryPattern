@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * @author Cao's Laptop
  */
 public class GioHang {
-    //  đối tượng hinhThucTT kiểu IThanhToan 
+    //  đối tượng hinhThucTT : kiểu IThanhToan 
     IThanhToan hinhThucTT;
     
     //  một danh sách các hàng hoá
