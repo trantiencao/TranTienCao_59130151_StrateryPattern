@@ -56,7 +56,6 @@ public class bt2Main {
         System.out.println("Thanh toán Online");
         System.out.println("Tiền hàng: "+gh2.tienHang());
         System.out.println("Tổng tiền phải trả: "+gh2.tongTienPhaiTra());
-        
     }
     
 }
